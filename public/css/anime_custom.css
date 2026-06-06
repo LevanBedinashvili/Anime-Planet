@@ -1,0 +1,35 @@
+.anime-toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 25px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+    z-index: 9999;
+}
+
+.anime-toast.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.anime-toast--success {
+    background-color: #29b474;
+    box-shadow: 0 4px 12px rgba(41, 180, 116, 0.3);
+}
+
+.anime-toast--error {
+    background-color: #ff55a5;
+    box-shadow: 0 4px 12px rgba(255, 85, 165, 0.3);
+}
+
+.jikan-error {
+    text-align: center;
+    color: #ff55a5;
+    padding: 50px;
+    font-size: 1.2rem;
+}
