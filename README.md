@@ -1,7 +1,5 @@
 # Anime-Planet 🪐
 
-![Anime-Planet Banner](https://via.placeholder.com/1200x400/1a1a2e/ffffff?text=Anime-Planet)
-
 **Anime-Planet** is a modern, responsive, and feature-rich web application designed for anime enthusiasts. Discover top-rated series, browse airing schedules, find random anime to watch, and manage your personal catalog in a sleek, dark-themed UI.
 
 What makes this project truly special is its foundation: **Anime-Planet is powered by ForgeMVC**, a custom-built, lightweight, Laravel-like PHP framework crafted from scratch!
